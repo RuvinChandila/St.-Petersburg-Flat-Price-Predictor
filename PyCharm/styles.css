@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    background:
+        linear-gradient(135deg, rgba(79, 172, 254, 0.1) 0%, transparent 50%),
+        linear-gradient(45deg, #1a2945 0%, #0E1117 30%, #2a1a3a 60%, #0E1117 100%);
+    animation: wave_shift 20s ease-in-out infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes wave_shift {
+    0% {background-position: 0% 0%;}
+    25% {background-position: 100% 50%;}
+    50% {background-position: 50% 100%;}
+    75% {background-position: 0% 50%;}
+    100% {background-position: 0% 0%;}
+}
+
+/* Header */
+.main-header {
+    background: linear-gradient(135deg, rgba(79, 172, 254, 0.1) 0%, rgba(0, 242, 254, 0.05) 100%);
+    border: 1px solid rgba(79, 172, 254, 0.2);
+    border-radius: 30px;
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-title  {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
+    letter-spacing: -0.5px;
+}
+
+/* Total area box */
+.total-area-box {
+    background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.1) 100%);
+    border: 2px solid rgba(79, 172, 254, 0.3);
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 20px rgba(79, 172, 254, 0.1);
+}
+
+/* Price display */
+.price-display {
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin: 1rem 0;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.9; }
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(135deg, rgba(61, 129, 188, 0.99) 0%, rgba(2, 182, 191, 0.99) 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(79, 172, 254, 0.3);
+}
+
+.stButton > button p {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 30px rgba(79, 172, 254, 0.5);
+}
+
+/* Container borders and background for sections */
+div[data-testid="stVerticalBlock"]:has(> div[data-testid="stVerticalBlock"]) {
+    background: rgba(22, 27, 34, 0.4) !important;
+    border: 2px solid rgba(79, 172, 254, 0.5) !important;
+    border-radius: 12px !important;
+    padding: 1.5rem !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Alternative selector for containers with border=True */
+div[class*="st-emotion-cache"] > div[data-testid="stVerticalBlock"] {
+    background: rgba(22, 27, 34, 0.4) !important;
+    border-color: rgba(79, 172, 254, 0.5) !important;
+    border-radius: 30px !important;
+    padding: 1.1rem !important;
+}
+
+/* Metrics styling - boxes for results */
+.stMetric {
+    background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.1) 100%);
+    border: 2px solid rgba(79, 172, 254, 0.3);
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(79, 172, 254, 0.15);
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4facfe;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #a8d6ff;
+    font-weight: 600;
+}
+
+
+
