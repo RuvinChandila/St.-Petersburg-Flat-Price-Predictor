@@ -81,7 +81,7 @@ st-petersburg-flat-price-predictor/
 
 ### 📦 Project Setup
 
-1.  Download the **[Latest Release]([https://github.com/yourusername/st-petersburg-flat-price-predictor/releases](https://github.com/RuvinChandila/St.-Petersburg-Flat-Price-Predictor/releases))**.
+1.  Download the **[Latest Release](https://github.com/RuvinChandila/St.-Petersburg-Flat-Price-Predictor/releases)**.
 2.  Extract the contents of the ZIP file.
 3.  Open PyCharm and navigate to the extracted project folder.
 
