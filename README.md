@@ -61,32 +61,40 @@ st-petersburg-flat-price-predictor/
 
 ## 🛠️ Technology Stack
 
-### **⚙️ Backend Logic**
+### ** Backend Logic**
 - Python
 - NumPy
 - Pandas
 
-### **🤖 Machine Learning**
+### ** Machine Learning**
 - CatBoost
 - Scikit-learn
 
-### **🎨 Frontend**
+### ** Frontend**
 - Streamlit
 - CSS
 
-### **📦 Deployment**
+### ** Deployment**
 - Pickle (Model Serialization)
 
 ---
 
 ## 🚀 Installation & Usage
 
+### 📦 Project Setup
+
+1.  Download the **[Latest Release](https://github.com/yourusername/st-petersburg-flat-price-predictor/releases)**.
+2.  Extract the contents of the ZIP file.
+3.  Open PyCharm and navigate to the extracted project folder.
+
+---
+
 **📂 Project structure:**
 ```
 jupyter_notebook/
-   ├── 📘 ITMO Flat Price Prediction 2025-2026.ipynb
-   ├── 📊 data.csv
-   └── 📋 test.csv
+   ├──  ITMO Flat Price Prediction 2025-2026.ipynb
+   ├──  data.csv
+   └──  test.csv
 ```
 
 **🚀 Launch Jupyter Notebook:**
@@ -142,7 +150,7 @@ streamlit run app.py
 
 **✅ Using the App:**
 
-Input property specifications and click **"Calculate Market Value"** to generate predictions! 💰
+Input property specifications and click **"Calculate Market Value"** to generate predictions! 
 
 ---
 
@@ -155,7 +163,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 <div align="center">
 
 **Made with ❤️ for St. Petersburg Real Estate**
-
-⭐ Star this repo if you find it helpful!
 
 </div>
