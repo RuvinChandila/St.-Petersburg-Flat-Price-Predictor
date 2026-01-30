@@ -42,12 +42,10 @@ st-petersburg-flat-price-predictor/
 
 ## 📸 Screenshots
 
-|  Space & Layout |  Building & Location |
-|:---:|:---:|
-| ![Space & Layout](screenshots/space_layout.png) | ![Building & Location](screenshots/building_location.png) |
-|  **Utilities & Review** |  **Market Value Estimate** |
-|:---:|:---:|
-| ![Utilities & Review](screenshots/utilities_review.png) | ![Estimate](screenshots/estimate.png) |
+![Space & Layout](Screenshots/space_layout.png)
+![Building & Location](Screenshots/building_location.png)
+![Utilities & Review](Screenshots/utilities_review.png)
+![Estimate](Screenshots/estimate.png)
 
 ---
 
