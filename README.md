@@ -1,16 +1,16 @@
-# 🏢 St. Petersburg Flat Price Predictor
+# St. Petersburg Flat Price Predictor
 
 > A machine learning application for estimating residential property values in St. Petersburg, Russia. This project leverages a CatBoost regression model trained on synthetic data to provide accurate market value predictions for 2026.
 
 ---
 
-## 📋 Overview
+## Overview
 
 The application employs a comprehensive feature set including spatial characteristics, building specifications, location data, utilities, and amenities to deliver precise price estimates. The interactive interface is built with Streamlit, enabling users to receive real-time predictions based on property attributes.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 -  **Interactive Input Interface**: Comprehensive controls for property specifications including floor area, room configuration, building characteristics, and amenities
 -  **Real-Time Predictions**: Instant market value estimation in Russian Rubles (₽)
@@ -20,7 +20,7 @@ The application employs a comprehensive feature set including spatial characteri
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 st-petersburg-flat-price-predictor/
 ├──  jupyter_notebook/
@@ -33,14 +33,14 @@ st-petersburg-flat-price-predictor/
 │   ├──  flat_price_model_2026_full.pkl              # Trained model
 │   └──  .streamlit/
 │       └──  config.toml                             # Application configuration
-└──  screenshots/                                     # Application screenshots
+└──  screenshots/                                    # Application screenshots
 ```
 
 > **📌 Note**: The `.streamlit` directory follows the standard Streamlit convention for configuration files. On Unix-like systems, this appears as a hidden folder.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ![Space & Layout](Screenshots/space_layout.png)
 ![Building & Location](Screenshots/building_location.png)
@@ -49,7 +49,7 @@ st-petersburg-flat-price-predictor/
 
 ---
 
-## 🔧 Prerequisites
+## Prerequisites
 
 -  Python 3.8 or higher
 -  PyCharm 
@@ -57,7 +57,7 @@ st-petersburg-flat-price-predictor/
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### **Backend Logic**
 - Python
