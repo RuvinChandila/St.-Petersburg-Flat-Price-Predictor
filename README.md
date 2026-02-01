@@ -59,107 +59,20 @@ st-petersburg-flat-price-predictor/
 
 ## 🛠️ Technology Stack
 
-### ** Backend Logic**
+### **Backend Logic**
 - Python
 - NumPy
 - Pandas
 
-### ** Machine Learning**
+### **Machine Learning**
 - CatBoost
 - Scikit-learn
 
-### ** Frontend**
+### **Frontend**
 - Streamlit
 - CSS
 
-### ** Deployment**
+### **Deployment**
 - Pickle (Model Serialization)
 
 ---
-
-## 🚀 Installation & Usage
-
-### 📦 Project Setup
-
-1.  Download the **[Latest Release](https://github.com/RuvinChandila/St.-Petersburg-Flat-Price-Predictor/releases)**.
-2.  Extract the contents of the ZIP file.
-3.  Open PyCharm and navigate to the extracted project folder.
-
----
-
-**📂 Project structure:**
-```
-jupyter_notebook/
-   ├──  ITMO Flat Price Prediction 2025-2026.ipynb
-   ├──  data.csv
-   └──  test.csv
-```
-
-**🚀 Launch Jupyter Notebook:**
-```bash
-jupyter notebook
-```
-
-** Run the Notebook:**
-
-1. Open `ITMO Flat Price Prediction 2025-2026.ipynb`
-2. Modify or experiment with the parameters
-3. Run all cells
-
-The notebook will:
-   -  Perform exploratory data analysis
-   -  Train the CatBoost regression model
-   -  Evaluate model performance
-   -  Export the trained model as `flat_price_model_2026_full.pkl`
-   -  Generate predictions on test data (output: `submission.csv`)
-
----
-
-### Streamlit Web App
-
-
-**📂 Project structure:**
-```
-streamlit_app/
-   ├──  app.py
-   ├──  flat_price_model_2026_full.pkl
-   ├──  styles.css
-   └──  .streamlit/
-       └──  config.toml
-```
-
-**💻 Open in PyCharm:**
-
-1. Run PyCharm and open `app.py`
-
-**⌨️ Open Terminal**
-
-**📦 Install dependencies:**
-```bash
-pip install streamlit pandas numpy catboost pickle5
-```
-
-**🎬 Run Streamlit:**
-```bash
-streamlit run app.py
-```
-
->  Streamlit will automatically open in your default browser at: `http://localhost:8501`
-
-**✅ Using the App:**
-
-Input property specifications and click **"Calculate Market Value"** to generate predictions! 
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-**Made with ❤️ for St. Petersburg Real Estate**
-
-</div>
